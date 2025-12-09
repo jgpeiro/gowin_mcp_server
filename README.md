@@ -31,12 +31,7 @@ Gowin MCP Server using FastMCP. This allow Claude to interact with the Gowin too
    pip install fastmcp
    ```
 
-2. **Run the server**:
-   ```bash
-   python gowin_mcp_server.py
-   ```
-
-3. **Configure in Claude Desktop** (add to config):
+2. **Configure in Claude Desktop** (add to config):
    ```json
    {
      "mcpServers": {
